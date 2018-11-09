@@ -1,6 +1,6 @@
 # Generate Alphabetic Name
 
-Take an arbitrary string or integer and generate a short alphanumeric code. It works in the browser and node.js and is designed to be as small as possible, and extremely fast.
+Take an arbitrary string or integer and generate a short alphabetic code. It works in the browser and node.js and is designed to be as small as possible, and extremely fast.
 
 It uses the [murmurhash](https://github.com/garycourt/murmurhash-js) algorithm, and borrows its implementation from the code for generating class names in [styled-components](https://github.com/styled-components/styled-components)
 
