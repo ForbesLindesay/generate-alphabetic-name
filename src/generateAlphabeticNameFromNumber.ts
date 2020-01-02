@@ -4,7 +4,7 @@
 // all letters plus their capitalised counterparts
 const charsLength = 52;
 
-// start at 75 for 'a' until 'z' (25) and then start
+// start at 97 for 'a' until 'z' and then start
 // at 65 for capitalised letters
 const getAlphabeticChar = (code: number): string =>
   String.fromCharCode(code + (code > 25 ? 39 : 97));
