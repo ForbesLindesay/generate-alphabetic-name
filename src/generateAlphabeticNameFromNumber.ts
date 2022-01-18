@@ -20,7 +20,7 @@ export default function generateAlphabeticNameFromNumber(code: number): string {
   let x;
 
   // get a char and divide by alphabet-length
-  for (x = code; x > charsLength; x = Math.floor(x / charsLength)) {
+  for (x = code; x >= charsLength; x = Math.floor(x / charsLength)) {
     name = getAlphabeticChar(x % charsLength) + name;
   }
 
